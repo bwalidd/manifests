@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: mydockerhub/myapp:v2   # CHANGE to v2 to update
+          image: docker pull wil42/playground:v1   # CHANGE to v2 to update
           imagePullPolicy: Always
           ports:
             - containerPort: 8888
